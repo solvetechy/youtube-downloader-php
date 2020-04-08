@@ -1,4 +1,4 @@
-# YouTube Downloader Library: PHP
+# YouTube Downloader Library: PHP - By Solve Techy
 YouTube Downloader API: PHP Script to fetch all the download links
 
 Note: This script are only for developers so they can fetch the download links and other attributes in a one line code but i have tried my best to explain in an easy way
