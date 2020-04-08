@@ -6,18 +6,15 @@ Note: This script are only for developers so they can fetch the download links a
 Include this file in your PHP File like this
 ```
 include("st_youtube_downloader.php");
-
 ```
 Create an Object
 ```
 $object = new STYDownloader();
-
 ```
 
 Get the YouTube Video ID and set in this format
 ```
 $fetched = $object->setID("ywN-WkF4MeM")->get_info();
-
 ```
 Save that into your variable and it will return all the download links,thumbnail,title etc in this format
 ```
@@ -46,12 +43,10 @@ Array
         )
 
 )
-
 ```
 To check, if the video ID is valid or not. You can use this syntax which will return you in the form of true or false. 
 ```
 $object->validate_video()
-
 ```
 Make sure check this after setting the ID like i show you in the previous Syntax
 So, your whole code will look like this
