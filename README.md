@@ -64,6 +64,4 @@ if($object->validate_video()){
     echo "Please type a valid URL";
 }
 ```
-
-
-
+For more info visit our website [www.solvetechy.com]
